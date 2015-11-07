@@ -1,0 +1,14 @@
+set xrange[-10:10]
+
+
+
+
+    plot  x < 1 ? sin(x) \
+     : x < 2 ? 2*sin(x) \
+             : sin(2*x)
+set term png
+set output "printme.png"
+ replot
+set term win
+             pause -1
+

@@ -1,0 +1,18 @@
+clear
+reset
+unset key
+set key off
+set xtics rotate out
+set style data histogram
+set style fill solid border
+set style histogram clustered
+set title "Budgeting: Reality vs Ideal"
+set ylabel "Percentage of Income Allotted"
+set xlabel "Types of Expenses\nRed = Reality\nGreen = Ideal"
+set yrange[0:100]
+set boxwidth 0.9 absolute
+set xtics border in scale 0,0
+set xtics nomirror rotate by -45
+plot for [COL=2:4] 'data.txt' using COL:xticlabels(1)
+pause -1
+

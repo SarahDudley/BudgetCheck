@@ -1,0 +1,6 @@
+Groceries
+3
+500
+Shopping
+1
+100

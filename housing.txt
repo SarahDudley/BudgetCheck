@@ -1,0 +1,15 @@
+Water
+1
+6
+Electricity
+3
+80
+Maintenance
+2
+25
+Renovation
+2
+100
+Mortage
+3
+1500

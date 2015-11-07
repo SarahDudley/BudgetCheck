@@ -1,0 +1,6 @@
+Car insurance
+3
+120
+Gas
+2
+40

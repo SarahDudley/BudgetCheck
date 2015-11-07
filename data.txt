@@ -1,0 +1,5 @@
+Housing 50.5609 35
+Transportation 5.56955 15
+DebtRepayment 8.30853 15
+Savings 6.73301 10
+GeneralExpenses 25.1815 25

@@ -1,0 +1,6 @@
+Doctor fees
+3
+200
+Credit card
+2
+50
